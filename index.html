@@ -55,13 +55,13 @@
         </nav>
     </header>
     <main>
-        
+
         <!-- sezione row/column -->
         <div class="d-flex flex-column flex-lg-row">
-            
+
             <!-- sezione 1 -->
             <div>
-                
+
                 <!-- sezione catalogo -->
                 <div class="d-flex justify-content-between p-4">
                     <h2>
@@ -73,7 +73,7 @@
                 </div>
 
                 <!-- lista libri -->
-                <div class="p-4">
+                <div class="px-4">
                     <table class="table table-striped">
                         <thead>
                             <tr>
@@ -343,37 +343,88 @@
 
             <!-- sezione 2 -->
             <div>
-                <div class="flex p-4">
-                    
+                <div class="flex px-4">
+
                     <!-- sezione bonus todo list -->
-                    <div class="card mt-4 w-auto" style="width: 18rem;">
+                    <div class="card mt-4">
                         <div class="card-header">
                             <h4 class="card-title">
                                 Todo
                             </h4>
                         </div>
                         <ul class="list-group p-3">
-                          <li class="list-group-item">
-                            <input type="checkbox">
-                            Chiamare segreteria
-                        </li>
-                          <li class="list-group-item">
-                            <input type="checkbox">
-                            Mandare avvisi prestiti scaduti
-                        </li>
-                          <li class="list-group-item">
-                            <input type="checkbox">
-                            Ordinare nuovi libri
-                        </li>
+                            <li class="list-group-item">
+                                <input type="checkbox">
+                                Chiamare segreteria
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox">
+                                Mandare avvisi prestiti scaduti
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox">
+                                Ordinare nuovi libri
+                            </li>
                         </ul>
-                      </div>
+                    </div>
 
                     <!-- sezione bonus faq (accordion?) -->
                     <div class="card mt-4">
-                        <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                        <div class="card-header">
+                            <h4 class="card-title">
+                                Todo
+                            </h4>
+                        </div>
+                        <div class="accordion accordion-flush px-3" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        second item's accordion body. Let's imagine this being filled with some actual
+                                        content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
