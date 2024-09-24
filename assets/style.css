@@ -1,0 +1,15 @@
+header {
+
+    nav.navbar {
+
+        div.container-fluid {
+
+            a.navbar-brand {
+
+                img {
+                    max-width: 62px;
+                }
+            }
+        }
+    }
+}
