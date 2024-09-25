@@ -53,7 +53,7 @@
                     <form class="d-flex" data-bs-theme="light" role="search">
                         <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Cerca</button>
-                      </form>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -61,23 +61,50 @@
     <main>
 
         <!-- sezione row/column -->
-        <div class="d-flex flex-column flex-lg-row justify-content-center">
-            
+        <h2 class="p-4">
+            Login
+        </h2>
+        <div class="d-flex flex-column flex-lg-row justify-content-start">
+            <form class="p-4">
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">
+                        Indirizzo e-mail
+                    </label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">
+                        Indirizzo e-mail dell'azienda
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword1" class="form-label">
+                        Password
+                    </label>
+                    <input type="password" class="form-control" id="inputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberCheck">
+                    <label class="form-check-label" for="rememberCheck">
+                        Ricordami
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Entra
+                </button>
+            </form>
         </div>
     </main>
-    <footer>
+    <footer class="vw-100 position-absolute bottom-0">
         <div class="d-flex justify-content-end bg-dark mt-5 p-3">
             <nav class="nav">
                 <a class="nav-link active link-light" aria-current="page" href="#">Made with &hearts;</a>
-              </nav>
+            </nav>
         </div>
     </footer>
 
     <!-- librerie Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
